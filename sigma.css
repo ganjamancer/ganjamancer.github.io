@@ -2,7 +2,7 @@ body {
     /* Set the GIF as the background */
     background-image: url('https://scrv.xyz/cdn/bg.gif');
     background-size: cover; /* Ensures the GIF covers the entire background */
-    background-repeat: repeat; /* Prevents the GIF from repeating */
+    background-repeat: nonrepeat; /* Prevents the GIF from repeating */
     background-position: center; /* Centers the background image */
     
     /* Force the text color to white */
