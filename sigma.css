@@ -61,6 +61,9 @@ h1, p, a {
 .box:hover {
     transform: scale(1.1);
     border-color: #D81000;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #050505;
+}
 
 figure {
     margin: 0; /* Removes default margin around the figure */
@@ -78,7 +81,4 @@ figcaption {
     font-size: 14px; /* Adjusts the font size */
     color: white; /* Adjusts the text color */
     margin-top: 5px; /* Adds some space between the image and the caption */
-}
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
-    background-color: #050505;
 }
