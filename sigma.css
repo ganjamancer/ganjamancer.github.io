@@ -13,6 +13,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    }
+    
+.logo-link:hover {
+    opacity: 0.8;
+    }
+     
+
 h1, p, a {
     color: red; /* Ensure all headings, paragraphs, and links are white */
 }
