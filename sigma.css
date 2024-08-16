@@ -36,11 +36,9 @@ h1, p, a {
 }
 
 .image-container {
-    display: inline-block;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 10px;
-    text-allign: center;
+    display: inline-block; /* Allows multiple containers to sit next to each other */
+    text-align: center; /* Centers the text and image within the container */
+    margin: 10px; /* Adds some space between each image */
 }
 
 .box {
