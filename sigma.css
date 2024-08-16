@@ -70,6 +70,6 @@ figure {
 
 figcaption {
     font-size: 14px; /* Adjusts the font size */
-    color: white; /* Adjusts the text color */
+    color: red; /* Adjusts the text color */
     margin-top: 5px; /* Adds some space between the image and the caption */
 }
