@@ -1,16 +1,23 @@
 body {
-    /* Set the GIF as the background */
     background-image: url('https://scrv.xyz/cdn/bg.gif');
     background-size: cover; /* Ensures the GIF covers the entire background */
-    background-repeat: nonrepeat; /* Prevents the GIF from repeating */
-    background-position: center; /* Centers the background image */
-    
-    /* Force the text color to white */
+    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    background-position: center center; /* Centers the background image */
+    min-height: 100vh; /* Ensures the background covers at least the viewport height */
     color: red;
     
     /* Add padding to the content */
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* Centers the logo horizontally */
+    align-items: center; /* Centers the logo vertically (if needed) */
+    height: 100px; /* Adjust as necessary */
 }
 
 .logo-link {
