@@ -18,6 +18,7 @@ body {
     justify-content: center; /* Centers the logo horizontally */
     align-items: center; /* Centers the logo vertically (if needed) */
     height: 100px; /* Adjust as necessary */
+    font-size: 150%
 }
 
 .logo-link {
