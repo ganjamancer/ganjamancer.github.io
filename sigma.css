@@ -29,7 +29,7 @@ body {
 }
      
 h1, p, a {
-    color: white; /* Ensure all headings, paragraphs, and links are white */
+    color: red; /* Ensure all headings, paragraphs, and links are white */
 }
 
 .image-container {
