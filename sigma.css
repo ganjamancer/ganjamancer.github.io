@@ -35,10 +35,12 @@ h1, p, a {
     color: red; /* Ensure all headings, paragraphs, and links are white */
 }
 
-.container {
-    display: flex;
+.image-container {
+    display: inline-block;
     justify-content: space-around;
     padding: 20px;
+    margin: 10px;
+    text-allign: center;
 }
 
 .box {
@@ -61,6 +63,24 @@ h1, p, a {
 .box:hover {
     transform: scale(1.1);
     border-color: #D81000;
+
+figure {
+    margin: 0; /* Removes default margin around the figure */
+    padding: 0;
+}
+
+img {
+    width: 150px; /* Set a fixed width for your images */
+    height: auto; /* Keeps the aspect ratio of your images */
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+figcaption {
+    font-size: 14px; /* Adjusts the font size */
+    color: white; /* Adjusts the text color */
+    margin-top: 5px; /* Adds some space between the image and the caption */
+}
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
     background-color: #050505;
 }
