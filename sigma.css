@@ -14,7 +14,7 @@ body {
 }
 
 /* Ensure each box is correctly sized and centered within its flex container */
-.image-container {
+.container {
     display: inline-block;
     text-align: center;
     margin: 10px;
@@ -36,19 +36,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
-figure {
-    margin: 0; /* Removes default margin around the figure */
-    padding: 0;
-    text-align: center; /* Centers the caption below the image */
-}
-
-figcaption {
-    font-size: 14px; /* Adjusts the font size */
-    color: white; /* Adjusts the text color */
-    margin-top: 5px; /* Adds some space between the image and the caption */
-}
-
 
 h1, p, a {
     color: red; /* Ensure all headings, paragraphs, and links are white */
