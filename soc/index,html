@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>scrv.xyz | soc</title>
+    <meta name="theme-color" content="#D81000"/>
+    <meta name="description" content="scrv, grooming, discord"/>
+    <meta property="og:title" content="scrv.xyz | soc"/>
+    <meta property="og:description" content="chat with chudz"/>
+    <meta property="og:image" content="https://scrv.xyz/cdn/sprm.png"/>
+    <link rel="icon" href="https://scrv.xyz/cdn/sprm.png"/>
+    <link href="https://scrv.xyz/sigma.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <a href="scrv.xyz" class="logo-link">
+        <div class="logo"><strong>scrv</strong></div>
+        <hr class="logohr" width="90%" size="1">
+    </a>
+
+    <div class="container">
+        <a href="https://discord.gg/Hz6tRECq9E" class="box">
+            <img src="https://scrv.xyz/cdn/discord.png" alt="discord">
+        </a>
+        <a href="https://matrix.to/#/#scrv:mozilla.org" class="box">
+            <img src="https://scrv.xyz/cdn/matrix-favicon.svg" alt="matrix">
+        </a>
+    </div>
+</body>
+</html>
