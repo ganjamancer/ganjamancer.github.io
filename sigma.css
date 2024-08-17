@@ -1,5 +1,5 @@
 body {
-    background-image: url('gif.gif');
+    background-image: url('https://scrv.xyz/cdn/bg.gif');
     background-size: cover; /* Ensures the GIF covers the entire background */
     background-repeat: repeat; /* Allows the GIF to repeat */
     background-position: center center; /* Centers the background image */
