@@ -32,7 +32,7 @@ h1, p, a {
     color: red; /* Ensure all headings, paragraphs, and links are white */
 }
 
-.image-container {
+.container {
     display: inline-block; /* Allows multiple containers to sit next to each other */
     text-align: center; /* Centers the text and image within the container */
     margin: 10px; /* Adds some space between each image */
