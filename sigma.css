@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://scrv.xyz/cdn/bg.gif');
+    background-image: url('gif.gif');
     background-size: cover; /* Ensures the GIF covers the entire background */
     background-repeat: repeat; /* Allows the GIF to repeat */
     background-position: center center; /* Centers the background image */
@@ -32,7 +32,7 @@ h1, p, a {
     color: red; /* Ensure all headings, paragraphs, and links are white */
 }
 
-.container {
+.image-container {
     display: inline-block; /* Allows multiple containers to sit next to each other */
     text-align: center; /* Centers the text and image within the container */
     margin: 10px; /* Adds some space between each image */
@@ -62,4 +62,14 @@ h1, p, a {
     background-color: #050505;
 }
 
+figure {
+    margin: 0; /* Removes default margin around the figure */
+    padding: 0;
+    text-align: center; /* Centers the caption below the image */
+}
 
+figcaption {
+    font-size: 14px; /* Adjusts the font size */
+    color: white; /* Adjusts the text color */
+    margin-top: 5px; /* Adds some space between the image and the caption */
+}
