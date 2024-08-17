@@ -32,7 +32,7 @@ h1, p, a {
     color: red; /* Ensure all headings, paragraphs, and links are white */
 }
 
-.image-container {
+.container {
     display: inline-block; /* Allows multiple containers to sit next to each other */
     text-align: center; /* Centers the text and image within the container */
     margin: 10px; /* Adds some space between each image */
@@ -60,16 +60,4 @@ h1, p, a {
     border-color: #D81000;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
     background-color: #050505;
-}
-
-figure {
-    margin: 0; /* Removes default margin around the figure */
-    padding: 0;
-    text-align: center; /* Centers the caption below the image */
-}
-
-figcaption {
-    font-size: 14px; /* Adjusts the font size */
-    color: white; /* Adjusts the text color */
-    margin-top: 5px; /* Adds some space between the image and the caption */
 }
