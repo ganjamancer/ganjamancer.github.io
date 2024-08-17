@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-wrap: wrap; /* Allows wrapping to the next line if the screen is too narrow */
     justify-content: center; /* Centers the boxes horizontally */
-    background-image: url('gif.gif');
+    background-image: url('https://scrv.xyz/cdn/bg.gif');
     background-size: cover;
     background-repeat: repeat; /* Ensures the GIF repeats */
     background-position: center center;
