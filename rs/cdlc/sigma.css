@@ -57,3 +57,19 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+
+.logo {
+    font-size: 500%;
+    text-align: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+    
+.logo-link:hover {
+    opacity: 0.8;
+}
