@@ -46,11 +46,11 @@ body {
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
 
     border-color: #D81000;
-    background-color: #050505;
+    background-color: #000100;
 }
 
 h1, p, a {
-    color: red; /* Ensure all headings, paragraphs, and links are white */
+    color: #000100; /* Ensure all headings, paragraphs, and links are white */
 }
 
 .logo {
@@ -60,7 +60,7 @@ h1, p, a {
 
 .logo-link {
     text-decoration: none;
-    color: inherit;
+    color: #000100;
 }
     
 .logo-link:hover {
